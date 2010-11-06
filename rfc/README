@@ -1,0 +1,27 @@
+ipinfo rfc/README
+
+Copyright (c) 2010 Maurice Makaay
+See the end for copying conditions
+
+This directory holds the RFCs that were used for building the IPinfo code.
+
+IPv4 related:
+
+  RFC4632 - Classless Inter-Domain Routing (CIDR)
+  RFC1700 - ASSIGNED NUMBERS
+  RFC3330 - Special-Use IPv4 Addresses
+
+IPv6 related:
+
+  RFC4291 - IP Version 6 Addressing Architecture
+  RFC5952 - A Recommendation for IPv6 Address Text Representation
+  RFC2765 - Stateless IP/ICMP Translation Algorithm (SIIT)
+  RFC3306 - Unicast-Prefix-based IPv6 Multicast Addresses
+
+----------------------------------------------------------------------
+This package is licensed under the MIT license.
+See the file COPYING.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

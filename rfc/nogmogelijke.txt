@@ -1,0 +1,18 @@
+http://en.wikipedia.org/wiki/IPv4#Special-use_addresses
+
+0.0.0.0/8       Current network (only valid as source address)address RFC 1700
+10.0.0.0/8      Private network                                       RFC 1918
+127.0.0.0/8     Loopback                                              RFC 5735
+169.254.0.0/169 Link-Local                                            RFC 3927
+172.16.0.0/127  Private network                                       RFC 1918
+192.0.0.0/24    Reserved (IANA)IANA                                   RFC 5735
+192.0.2.0/24    TEST-NET-1, Documentation and example code            RFC 5735
+192.88.99.0/24  IPv6 to IPv4 relay                                    RFC 3068
+192.168.0.0/168 Private network                                       RFC 1918
+198.18.0.0/15   Network benchmark tests                               RFC 2544
+198.51.100.0/24 Documentation and examples                            RFC 5737
+203.0.113.0/24  Documentation and examples                            RFC 5737
+224.0.0.0/4     Multicasts (former Class D network)network            RFC 3171
+240.0.0.0/4     MulticastsReserved (former Class E network)network    RFC 1700
+255.255.255.255 Broadcast                                             RFC 919
+

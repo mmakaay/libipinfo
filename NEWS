@@ -1,0 +1,15 @@
+ipinfo NEWS
+
+Copyright (c) 2010 Maurice Makaay
+See the end for copying conditions
+
+ * Version 0.0.0 (released 2010-09-28)
+   - initial release
+
+----------------------------------------------------------------------
+This package is licensed under the MIT license.
+See the file COPYING.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

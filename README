@@ -1,0 +1,64 @@
+ipinfo README
+
+Copyright (c) 2010 Maurice Makaay
+See the end for copying conditions
+
+libipinfo
+---------
+
+This library provides routines that can be used for parsing, classifying
+and formatting IP addresses.
+
+The provided interface functions (all defined in <ipinfo.h>) are:
+
+ - ipinfo_parse()
+
+     For parsing IPv4 (decimal dotted-quad) and IPv6 (RFC4291)
+     address strings, optionally extended with a prefix length
+     or (in case of IPv4) subnet mask notation.
+
+     This method serves a different scope than the inet_pton() and
+     getaddrinfo() calls, because the address parser will not only
+     report that an address could not be parsed, but it will also
+     reports exactly why this is the case. This makes this library
+     more useful for IP address validation tasks than the standard
+     system calls.
+
+     This function does not need to know what kind of address is
+     expected. It will determine whether it is handling and IPv4
+     or and IPv6 address on its own.
+
+ - ipinfo_format()
+
+     This function provides formatting functionality. The input is
+     a parsed address (as produced by ipinfo_parse()) and a formatting
+     type. The function will create a formatted string, based on the
+     requested formatting type.
+
+
+ipinfo
+------
+
+This command line tool makes use of the libipinfo library for all its
+IP address parsing, classification and formatting.
+
+
+Portability
+-----------
+
+ - The library was written in a thread-safe manner, so you can use it
+   in multi-threaded applications.
+ - Vanilla C was used for all coding.
+ - Both the library and the command line utility are stand-alone and
+   do not depend other (networking) libraries.
+
+For these reasons, this package should work on a wide range of platforms.
+
+
+----------------------------------------------------------------------
+This package is licensed under the MIT license.
+See the file COPYING.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

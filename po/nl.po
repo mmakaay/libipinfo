@@ -1,0 +1,235 @@
+# ipinfo.pot --- translations for ipinfo
+# Copyright (C) 2010 Maurice Makaay
+# This file is distributed under the same license as the ipinfo package.
+# Maurice Makaay <maurice@makaay.nl>, 2010
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ipinfo 1.0\n"
+"Report-Msgid-Bugs-To: maurice@makaay.nl\n"
+"POT-Creation-Date: 2010-11-04 15:14+0100\n"
+"PO-Revision-Date: 2010-09-28 01:38+0200\n"
+"Last-Translator: Maurice Makaay <maurice@makaay.nl>\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: ipinfo/ipinfo.c:39
+#, c-format
+msgid "Domain             = %s\n"
+msgstr "Domein             = %s\n"
+
+#: ipinfo/ipinfo.c:42
+#, c-format
+msgid "IP Address         = %s\n"
+msgstr "IP-adres           = %s\n"
+
+#: ipinfo/ipinfo.c:47
+#, c-format
+msgid "Network prefix     = %s\n"
+msgstr "Netwerkprefix      = %s\n"
+
+#: ipinfo/ipinfo.c:50
+#, c-format
+msgid "Network address    = %s\n"
+msgstr "Netwerkadres       = %s\n"
+
+#: ipinfo/ipinfo.c:53
+#, c-format
+msgid "Netmask            = %s\n"
+msgstr "Netmask            = %s\n"
+
+#: ipinfo/ipinfo.c:58
+#, c-format
+msgid "Broadcast address  = %s\n"
+msgstr "Broadcast-adres    = %s\n"
+
+#: ipinfo/ipinfo.c:61
+#, c-format
+msgid "Number of hosts    = %s\n"
+msgstr "Aantal hosts       = %s\n"
+
+#: ipinfo/ipinfo.c:67
+#, c-format
+msgid "Error: %s (%d)\n"
+msgstr "Fout: %s (%d)\n"
+
+#: libipinfo/tokenize.c:31 libipinfo/parse.c:527
+msgid "end of address"
+msgstr "einde van het adres"
+
+#: libipinfo/tokenize.c:32 libipinfo/parse.c:221
+msgid "colon"
+msgstr "dubbele punt"
+
+#: libipinfo/tokenize.c:33 libipinfo/parse.c:380
+msgid "dot"
+msgstr "punt"
+
+#: libipinfo/tokenize.c:34
+msgid "slash"
+msgstr "slash"
+
+#: libipinfo/tokenize.c:35
+msgid "hex address field;"
+msgstr "hex adresveld"
+
+#: libipinfo/tokenize.c:36 libipinfo/parse.c:246
+msgid "address field"
+msgstr "adresveld"
+
+#: libipinfo/tokenize.c:37
+msgid "illegal character"
+msgstr "ongeldig karakter"
+
+#: libipinfo/parse.c:43
+#, c-format
+msgid "Unexpected: %s at position %d in address '%s'"
+msgstr "Onverwacht: %s op positie %d in adres '%s'"
+
+#: libipinfo/parse.c:44
+msgid "expected"
+msgstr "verwacht"
+
+#: libipinfo/parse.c:71
+msgid "IPv4"
+msgstr "IPv4"
+
+#: libipinfo/parse.c:72
+msgid "IPv6"
+msgstr "IPv6"
+
+#: libipinfo/parse.c:121
+#, c-format
+msgid "The IP address is too long (at most %d bytes are expected)"
+msgstr "Het IP-adres is te lang (maximaal %d bytes worden verwacht)"
+
+#: libipinfo/parse.c:160
+#, c-format
+msgid "Illegal character '%c' at position %d in address '%s'"
+msgstr "Ongeldig karakter '%c' op positie %d in adres '%s'"
+
+#: libipinfo/parse.c:182
+msgid "address field or colon"
+msgstr "adresveld of dubbele punt"
+
+#: libipinfo/parse.c:210
+#, c-format
+msgid "Duplicate '::' block at position %d in address '%s'"
+msgstr "Duplicaat '::' blok op positie %d in adres '%s'"
+
+#: libipinfo/parse.c:276
+msgid "colon or slash"
+msgstr "dubbele punt of slash"
+
+#: libipinfo/parse.c:306
+msgid "colon, slash or dot"
+msgstr "dubbele punt, slash of punt"
+
+#: libipinfo/parse.c:321
+#, c-format
+msgid ""
+"Illegal IPv4 byte '%s' at position %d in address '%s' (no leading zeroes are "
+"allowed)"
+msgstr ""
+"Ongeldige IPv4 byte '%s' op positie %d in adres '%s' (voorloopnullen zijn "
+"niet toegestaan)"
+
+#: libipinfo/parse.c:331
+#, c-format
+msgid ""
+"Illegal IPv4 byte value '%d' at position %d in address '%s' (expected: 0 - "
+"255)"
+msgstr ""
+"Ongeldige IPv4 bytewaarde '%d' op positie %d in adres '%s' (verwacht: 0 - "
+"255)"
+
+#: libipinfo/parse.c:367
+msgid "IPv4 address byte 0 - 255"
+msgstr "IPv4 adresbyte 0 - 255"
+
+#: libipinfo/parse.c:399
+msgid "prefix length slash"
+msgstr "slash voor een prefixlengte"
+
+#: libipinfo/parse.c:412
+#, c-format
+msgid ""
+"Illegal prefix length '%d' used at position %d in address '%s' (expected: "
+"IPv6 prefix length 0 - 128)"
+msgstr ""
+"Een ongeldige prefixlengte '%d' is gebruikt op positie %d in adres '%"
+"s' (verwacht: IPv6 prefixlengte 0 - 128)"
+
+#: libipinfo/parse.c:424
+msgid "IPv6 prefix length 0 - 128"
+msgstr "IPv6 prefixlengte 0 - 128"
+
+#: libipinfo/parse.c:438
+#, c-format
+msgid ""
+"Illegal IPv4 netmask byte '%s' at position %d in address '%s' (no leading "
+"zeroes are allowed)"
+msgstr ""
+"Ongeldige IPv4 netmask byte '%s' op positie %d in adres '%s' (voorloopnullen "
+"zijn niet toegestaan)"
+
+#: libipinfo/parse.c:449
+#, c-format
+msgid ""
+"Illegal IPv4 netmask byte value '%d' at position %d in address '%"
+"s' (expected: 0 - 255)"
+msgstr ""
+"Ongeldige IPv4 netmask bytewaarde '%d' op positie %d in adres '%"
+"s' (verwacht: 0 - 255)"
+
+#: libipinfo/parse.c:482
+msgid "IPv4 prefix 0 - 32 or a dot-decimal netmask"
+msgstr "IPv4 prefix 0 - 32 of een dot-decimal netmask"
+
+#: libipinfo/parse.c:484
+msgid "IPv4 netmask byte 0-255"
+msgstr "IPv4 netmask-byte 0-255"
+
+#: libipinfo/parse.c:504
+#, c-format
+msgid ""
+"Invalid IPv4 prefix length %d in address '%s' (expected: IPv4 prefix length "
+"0 - 32)"
+msgstr ""
+"Een ongeldige IPv4 prefixlengte %d is gebruikt in adres '%s' (verwacht: "
+"prefixlengte 0 - 32)"
+
+#: libipinfo/parse.c:558
+#, c-format
+msgid ""
+"Address '%s' contains a compressed zeroes block '::', but the address "
+"already contains %d bytes or more"
+msgstr ""
+"Het adres '%s' bevat een nul-compressieblok '::', maar het adres bevat al %d "
+"bytes of meer"
+
+#: libipinfo/parse.c:599
+#, c-format
+msgid "Address '%s' contains only %d bytes (%d bytes are expected)"
+msgstr "Het adres '%s' bevat maar %d bytes (%d bytes worden verwacht)"
+
+#: libipinfo/parse.c:610
+#, c-format
+msgid ""
+"Address '%s' exceeds the maximum IPv6 byte length (%d bytes are expected)"
+msgstr ""
+"Het adres '%s' is langer dan de maximaal toegestane IPv6 bytelengte (%d "
+"bytes worden verwacht)"
+
+#: libipinfo/ipv4_netmask.c:50
+#, c-format
+msgid "Byte %d '%d' in the netmask is invalid (expected zero)"
+msgstr "Byte %d '%d' in het netmask is ongeldig (er werd een nul verwacht)"
+
+#: libipinfo/ipv4_netmask.c:72
+#, c-format
+msgid "Byte %d '%d' in the netmask is invalid"
+msgstr "Byte %d '%d' in het netmask is ongeldig"
